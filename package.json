@@ -4,7 +4,7 @@
   "description": "email, password validation and save to database",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/makcmakc/node-express-sql-boilerat/issues"
   },
-  "homepage": "https://github.com/makcmakc/node-express-sql-boilerat#readme"
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.1",
+    "sequelize": "^5.21.2",
+    "sqlite3": "^4.1.1"
+  }
 }
