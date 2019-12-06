@@ -1,0 +1,19 @@
+{
+  "name": "express-sql-boilerat",
+  "version": "1.0.0",
+  "description": "email, password validation and save to database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makcmakc/node-express-sql-boilerat.git"
+  },
+  "author": "Maxim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makcmakc/node-express-sql-boilerat/issues"
+  },
+  "homepage": "https://github.com/makcmakc/node-express-sql-boilerat#readme"
+}
